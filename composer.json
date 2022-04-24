@@ -1,0 +1,12 @@
+{
+  "name": "minororange/mc",
+  "description": "magento module creator",
+  "require": {
+    "php": "~7.3.0||~7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Minor\\Mc\\": "src/"
+    }
+  }
+}
