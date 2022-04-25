@@ -9,6 +9,7 @@
       "Minor\\Mc\\": "src/"
     }
   },
+  "minimum-stability":"1.0.1",
   "scripts": {
     "post-install-cmd": [
       "php -r \"copy('vendor/minororange/mc/bin/mmc','mmc');\""
