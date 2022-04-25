@@ -8,5 +8,10 @@
     "psr-4": {
       "Minor\\Mc\\": "src/"
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php -r \"copy('vendor/minororange/mc/bin/mmc','mmc');\""
+    ]
   }
 }

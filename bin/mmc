@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
-require __DIR__ . "/../vendor/autoload.php";
+require "./vendor/autoload.php";
 $generator = new \Minor\Mc\Generator();
 \Minor\Mc\GlobalArgs::setRootPath(getcwd());
 $generator->run(...$argv);
