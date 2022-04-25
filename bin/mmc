@@ -2,5 +2,5 @@
 <?php
 require "./vendor/autoload.php";
 $generator = new \Minor\Mc\Generator();
-\Minor\Mc\GlobalArgs::setRootPath(getcwd());
+\Minor\Mc\GlobalArgs::setRootPath("./");
 $generator->run(...$argv);
